@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            padding: 10px;
+            margin-left: 10px;
+        }
+        h3{
+            padding: 10px;
+            margin: 10px;
+        }
+        #row{
+            display: flex;
+            max-width: 40%;
+        }
+        #row1{
+            display: flex;
+            background-color: aquamarine;
+        }
+        table{
+            margin: 20px;
+        }
+        table,td{
+            background-color: aquamarine;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter details:</h2>
+    <form>
+        ID:
+        <input type="text" name="id" id="id" class="input">
+        <br>
+        Name:
+        <input type="text" name="name" id="name" class="input">
+        <br>
+        Active:
+        <input type="text" name="active" id="active">
+        <br>
+        Department:
+        <input type="text" name="dept" id="dept">
+        <br>
+        Address:
+        <textarea id="address" name="address"></textarea>
+        <br>
+        <br>
+        <input type="button" value="Submit" onclick="processData();">
+    </form>
+    <table id="result">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Active</td>
+            <td>Department</td>
+            <td>Permanent Address</td>
+            <td>Temporary Address</td>
+        </tr>
+                    
+    </table>
+    </div>
+    <script src="script_day4_DOM.js"></script>
+</body>
+</html>
