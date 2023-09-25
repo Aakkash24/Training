@@ -43,7 +43,6 @@ function displayEmployeeInfo(employee: Employee): void {
   console.log(`Address: ${employee.address.PA}, ${employee.address.TA}`);
   console.log(`Contact Email: ${employee.contactInfo.email}`);
   console.log(`Contact Phone: ${employee.contactInfo.mobile}`);
-  console.log('---------------------------');
 }
 
 function displayEmployees(employees: Employee[]): void {
